@@ -1,0 +1,209 @@
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header-content {
+    width: 98.9vw;
+    margin: 0 auto;
+    background-color: black;
+    padding: 20px 80px;
+}
+
+.header-content p {
+    color: white;
+}
+
+.header h1,
+.header p,
+.footer p {
+    margin: 0;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.main {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+.grid h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.grid p {
+    font-size: 1rem;
+    color: #666666;
+}
+
+.grid ul {
+    list-style: none;
+    padding: 0;
+}
+
+.grid ul li {
+    margin-bottom: 10px;
+}
+
+.grid .link {
+    color: #003366;
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header-content {
+        width: 100vw;
+        margin: 0 auto;
+        background-color: black;
+        padding: 20px 80px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .container {
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    .header-content {
+        width: 100vw;
+        margin: 0 auto;
+        background-color: black;
+        padding: 20px 80px;
+    }
+
+    .header-content p {
+        color: white;
+    }
+
+    .header h1,
+    .header p,
+    .footer p {
+        margin: 0;
+        color: white;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    .main {
+        padding: 40px 20px;
+        background-color: #f8f9fa;
+    }
+
+    .main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .section {
+        margin-bottom: 40px;
+    }
+
+    .section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 768px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+
+    }
+
+    .grid h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .grid p {
+        font-size: 1rem;
+        color: #666666;
+        /* Muted foreground color */
+    }
+
+    .grid ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .grid ul li {
+        margin-bottom: 10px;
+    }
+
+    .grid .link {
+        color: #003366;
+        /* Primary color */
+        text-decoration: underline;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+}

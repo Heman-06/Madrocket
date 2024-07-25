@@ -1,0 +1,207 @@
+.abt02 {
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px 0px;
+}
+
+.abt021,
+.abt022 {
+    width: 50%;
+    height: 100%;
+}
+
+.abt021 span {
+    height: 250px;
+    width: fit-content;
+}
+
+.abt021 span img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.abt022 p {
+    color: black;
+    font-size: 22px;
+}
+
+.abt022 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abt022 h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 9px;
+}
+
+.abt03 {
+    height: fit-content;
+    width: 75vw;
+    margin: 40px auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abt03 h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.abt03 li {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .abt02 {
+        height: auto;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        padding: 10px 0px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .abt021,
+    .abt022 {
+        width: 90%;
+        height: 100%;
+    }
+
+    .abt021 span {
+        height: 250px;
+        width: fit-content;
+    }
+
+    .abt021 span img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .abt022 p {
+        color: black;
+        font-size: 22px;
+    }
+
+    .abt022 {
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .abt022 h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 9px;
+    }
+
+    .abt03 {
+        height: fit-content;
+        width: 90vw;
+        margin: 40px auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .abt03 h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .abt03 li {
+        font-size: 19px;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .abt02 {
+        height: auto;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        padding: 10px 20px;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .abt021,
+    .abt022 {
+        width: 90%;
+        height: 100%;
+    }
+
+    .abt021 span {
+        height: 200px;
+        width: 200px;
+        width: fit-content;
+    }
+
+    .abt021 span img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .abt022 p {
+        color: black;
+        font-size: 22px;
+    }
+
+    .abt022 {
+        height: 220px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .abt022 h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 9px;
+    }
+
+    .abt03 {
+        height: fit-content;
+        width: 90vw;
+        margin: 40px auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .abt03 h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .abt03 li {
+        font-size: 19px;
+        margin-left: 5px;
+    }
+}

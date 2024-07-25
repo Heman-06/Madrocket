@@ -1,0 +1,390 @@
+.glr1 {
+    width: 100%;
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 40px 80px;
+}
+
+.glr1 h1 {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.glr2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(99, 96, 97, 0.163);
+    width: 70vw;
+    margin: auto;
+
+}
+
+.glr3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.glr3 p {
+    color: black;
+    font-size: 20px;
+    padding: 10px 5px;
+
+}
+
+@media (min-width: 640px) {
+    .glr3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .glr3 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        /* width: 100%;
+        margin: auto;
+        padding: 30px; */
+        padding: 20px;
+    }
+}
+
+.glr4 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.glr5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.glr4:hover .glr5 {
+    transform: scale(1.05);
+}
+
+.glr6 {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.glr4:hover .glr6 {
+    opacity: 1;
+}
+
+.glr7 {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+.glr8 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+    padding: 20px;
+}
+
+@media (min-width: 640px) {
+    .glr8 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.glr9 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.glr10 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.glr11 {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glr12 {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .glr1 {
+        width: 100%;
+        max-width: 100vw;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .glr1 h1 {
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .glr2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: rgba(99, 96, 97, 0.163);
+        width: 95vw;
+        margin: auto;
+
+    }
+
+    .glr3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .glr3 p {
+        color: black;
+        font-size: 15px;
+        padding: 10px 5px;
+
+    }
+
+    @media (min-width: 640px) {
+        .glr3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .glr3 {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            padding: 20px;
+        }
+    }
+
+    .glr4 {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5rem;
+    }
+
+    .glr5 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .glr4:hover .glr5 {
+        transform: scale(1.05);
+    }
+
+    .glr6 {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .glr4:hover .glr6 {
+        opacity: 1;
+    }
+
+    .glr7 {
+        width: 2rem;
+        height: 2rem;
+        color: white;
+    }
+
+    .glr8 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+        padding: 20px;
+    }
+
+    @media (min-width: 640px) {
+        .glr8 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .glr9 {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5rem;
+    }
+
+    .glr10 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .glr11 {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .glr12 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .glr1 {
+        width: 100%;
+        max-width: 100vw;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .glr1 h1 {
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .glr2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: rgba(99, 96, 97, 0.163);
+        width: 95vw;
+        margin: auto;
+
+    }
+
+    .glr3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .glr3 p {
+        color: black;
+        font-size: 20px;
+        padding: 10px 5px;
+
+    }
+
+    @media (min-width: 640px) {
+        .glr3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .glr3 {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            padding: 20px;
+        }
+    }
+
+    .glr4 {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5rem;
+    }
+
+    .glr5 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .glr4:hover .glr5 {
+        transform: scale(1.05);
+    }
+
+    .glr6 {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .glr4:hover .glr6 {
+        opacity: 1;
+    }
+
+    .glr7 {
+        width: 2rem;
+        height: 2rem;
+        color: white;
+    }
+
+    .glr8 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+        padding: 20px;
+    }
+
+    @media (min-width: 640px) {
+        .glr8 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .glr9 {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.5rem;
+    }
+
+    .glr10 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .glr11 {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .glr12 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
